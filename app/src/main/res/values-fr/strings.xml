@@ -1,0 +1,37 @@
+<resources>
+    <string name="home">Acceuil</string>
+    <string name="help">Aide</string>
+    <string name="consultation">Consultation</string>
+    <string name="appointment">Rendez-Vous</string>
+    <string name="show_consultation">Consultation patient</string>
+    <string name="appointment_list">Liste Rendez-vous</string>
+    <string name="take_appointment">Prendre Rendez-Vous</string>
+    <string name="observation">Observation</string>
+    <string name="consult">Consulter</string>
+
+    <string name="app_name">My Health</string>
+    <string name="connection">Connexion</string>
+    <string name="login">Identifiant</string>
+    <string name="password">Mot de Passe</string>
+    <string name="connect">Se Connecter</string>
+    <string name="sign_up">S\'Inscrire</string>
+    <string name="phone">Téléphone</string>
+    <string name="inscription">Inscription</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="age">Date de Naissance</string>
+    <string name="username">Nom d\'Utilisateur</string>
+
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

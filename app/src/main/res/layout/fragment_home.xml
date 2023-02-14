@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <ImageView
+           android:src="@mipmap/ic_launcher"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"/>
+       <TextView
+           android:text="Tout comme notre trimestriel d\’information DALAL JAMM INFO, ce portail web servira d\’interface de communication entre d\’une part le Centre Hospitalier national DALAL JAMM (CHNDJ), son corps médical, son administration générale et d\autre part, le monde extérieur notamment composé du grand public, de la presse spécialisée aux questions sanitaires et des professionnels de santé.  Cette vitrine vous permettra de mieux connaitre  Dalal Jammn, qui se veut « Un camp pour réduire l’inégalité des soins de qualité ».L\’hôpital Dalal Jamm est une incarnation de la volonté du Président de la République Son Excellence Macky SAll, de briser les inégalités en offrant à tous les sénégalais des soins de santé comparables à ceux offert dans les pays de référence en la matière;
+
+L\’hôpital Dalal Jamm vient comme un véritable renfort à l\’offre de soins dans la capitale sénégalaise et en banlieue;
+
+L\’hôpital Dalal Jamm vous offre un plateau technique moderne pour des interventions cliniques pointues;
+
+Dalal Jamm, c\’est un corps médical expérimenté et doué. Des spécialistes capables de débusquer les pathologies les plus sournoises;
+
+A Dalal Jamm, « le Malade est au cœur de nos actions ». Je vous souhaite la bienvenue dans votre centre hospitalier national : DALAL JAMM."
+           android:layout_marginTop="@dimen/top"
+           android:layout_marginRight="@dimen/right"
+           android:layout_marginLeft="@dimen/left"
+           android:textColor="@color/blue_dark"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+   </LinearLayout>
+</ScrollView>

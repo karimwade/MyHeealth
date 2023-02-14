@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConsultationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultation"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="@dimen/top"
+        android:textColor="@color/blue_dark"/>
+
+    <EditText
+        android:id="@+id/txtidPatient"
+        android:inputType="number"
+        android:hint="Identifiant du Patient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/top"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/txtObservations"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="@dimen/top"
+        android:hint="@string/observation"
+        android:textSize="30dp"
+        android:inputType="textMultiLine"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnConsult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/right"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginTop="@dimen/top"
+        android:hint="@string/consult"
+        android:backgroundTint="@color/blue_dark"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btnListConsult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/right"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginTop="@dimen/top"
+        android:hint="Affichage Consultation"
+        android:backgroundTint="@color/blue_light"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>
